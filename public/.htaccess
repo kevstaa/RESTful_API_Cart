@@ -1,0 +1,8 @@
+RewriteEngine On
+
+# Specify here the path where the SLIM definition files are located, and this htaccess:
+RewriteBase /apicart/public/
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^api/(.*)$ apicart.php [QSA,L]

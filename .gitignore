@@ -1,0 +1,14 @@
+# IDE configuration files and folders
+.vscode/
+.idea/
+
+# Composer dependencies (folder containing libraries and dependencies)
+vendor/
+
+# Temporary files
+*.log
+*.tmp
+
+# Environment-specific configuration files
+# The .env file contains sensitive credentials and configuration, so it should not be versioned
+.env
