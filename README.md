@@ -1,6 +1,25 @@
 # API Cart
+
 ## Description
-This is a RESTful API for managing a shopping cart. It allows users to add, remove, and view products in their cart, as well as complete the checkout process. The API is designed to integrate with frontend applications or e-commerce platforms.
+
+API Cart is a RESTful API designed to manage shopping cart functionalities for e-commerce platforms. It allows users to add, remove, and view products in their cart, as well as complete the checkout process. The API is lightweight, efficient, and easy to integrate with frontend applications.
+
+## Features
+
+- Add items to the cart with quantity and price.
+- Update item quantities or details in the cart.
+- Remove items from the cart.
+- Retrieve the current state of the cart, including total price and item details.
+- Complete the checkout process.
+
+## Technologies Used
+
+- **PHP**: Backend logic and API implementation.
+- **MySQL**: Database for storing cart and product data.
+- **Apache (via XAMPP)**: Local server for hosting the API.
+- **Slim Framework**: Lightweight PHP framework for building RESTful APIs.
+- **Composer**: Dependency manager for PHP.
+- **Postman**: Tool for testing API endpoints.
 
 ## Installation
 
@@ -14,44 +33,41 @@ This is a RESTful API for managing a shopping cart. It allows users to add, remo
    ```
 
 3. **Set up the database**  
-   The API will automatically create a MySQL database via phpMyAdmin.  
    - Open phpMyAdmin at [http://localhost/phpmyadmin](http://localhost/phpmyadmin).
-   - Use the cartdb.sql file located in the db folder to avoid issues.
-   
-   Then, configure the database connection in the `.env` file. Create a `.env` file in the root directory of the project and add the following variables:
-   ```dotenv
-   DB_HOST=your_dbhost
-   DB_NAME=your_dbname
-   DB_USER=your_user
-   DB_PASS=your_secure_password
-   ```
+   - Import the `cartdb.sql` file located in the `db` folder to set up the database.
+   - Create a `.env` file in the root directory of the project and add the following variables:
+     ```dotenv
+     DB_HOST=your_dbhost
+     DB_NAME=your_dbname
+     DB_USER=your_user
+     DB_PASS=your_secure_password
+     ```
 
-4. **Install Slim dependencies**  
+4. **Install dependencies**  
    Navigate to the project directory and run:
    ```bash
    cd project
    composer install
    ```
 
-5. **Configure Postman**  
-   Open Postman and set up requests to interact with the API, using the available endpoints.
-
-6. **Start XAMPP**  
+5. **Start XAMPP**  
    Ensure that Apache and MySQL are running from the XAMPP control panel.
 
-7. **Access the API**  
-   The API will be available at `http://localhost/apicart/public`.
+6. **Access the API**  
+   The API will be available at [http://localhost/apicart/public](http://localhost/apicart/public).
+
+## Usage
+
+Start your local server (e.g., Apache and MySQL using XAMPP) and access the API at [http://localhost/apicart/public](http://localhost/apicart/public). Use Postman or any HTTP client to test the endpoints.
 
 ## Contributing
 
-1. Fork the repository.
-2. Create a branch for your feature (`git checkout -b feature/new-feature`).
-3. Make your changes.
-4. Commit and push your branch (`git push origin feature/new-feature`).
-5. Open a pull request for review.
+Contributions are welcome! Fork the repository, make your changes, and open a pull request for review.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
-You can contact me at [Contact me](mailto:kperez2609@gmail.com).
+
+For questions or support, contact me at [kperez2609@gmail.com](mailto:kperez2609@gmail.com).
