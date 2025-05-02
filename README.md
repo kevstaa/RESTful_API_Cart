@@ -67,7 +67,3 @@ Contributions are welcome! Fork the repository, make your changes, and open a pu
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For questions or support, contact me at [kperez2609@gmail.com](mailto:kperez2609@gmail.com).
