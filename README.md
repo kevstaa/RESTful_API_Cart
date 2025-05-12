@@ -29,7 +29,7 @@ API Cart is a RESTful API designed to manage shopping cart functionalities for e
 2. **Clone the repository**  
    Clone this repository into the `htdocs` directory of XAMPP:
    ```bash
-   git clone https://github.com/username/project.git
+   https://github.com/kevstaa/RESTful_API_Cart.git
    ```
 
 3. **Set up the database**  
